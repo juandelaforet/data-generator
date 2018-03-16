@@ -1,0 +1,10 @@
+location,printer_name,printer_type,direct_or_pull
+"HQ","HP-HQ-1-LJ","Laserjet","PULL"
+"HQ","XE-HQ-2-CP","Colour Photo","DIRECT"
+"NORTHERN REGIONAL","XE-NR-1-LJ","Laserjet","PULL"
+"SOUTHERN REGIONAL","XE-SR-1-LJ","Laserjet","PULL"
+"EASTERN REGIONAL","XE-ER-1-LJ","Laserjet","DIRECT"
+"WESTERN REGIONAL","XE-WR-1-LJ","Laserjet","PULL"
+"OVERSEAS CHINA","HP-OC-1-CP","Colour Photo","PULL"
+"OVERSEAS SPAIN","HP-OS-1-CP","Colour Photo","PULL"
+"OVERSEAS FRANCE","HP-OF-1-CP","Colour Photo","DIRECT"

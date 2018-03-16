@@ -1,0 +1,135 @@
+{
+    "UseCase1": [
+        {
+            "step_number": "1",
+            "action_description": "Swipe In User",
+            "action": "SWIPEIN"
+        },
+        {
+            "step_number": "2",
+            "action_description": "Log In User",
+            "action": "LOGIN"
+        },
+        {
+            "step_number": "3",
+            "action_description": "Plug In Device",
+            "action": "PLUGIN"
+        },
+        {
+            "step_number": "4",
+            "action_description": "Unplug Device",
+            "action": "UNPLUG"
+        },
+        {
+            "step_number": "5",
+            "action_description": "Log Out User",
+            "action": "LOGOUT"
+        },
+        {
+            "step_number": "6",
+            "action_description": "Swipe Out User",
+            "action": "SWIPEOUT"
+        }
+     ],
+    "UseCase2": [
+        {
+            "step_number": "1",
+            "action_description": "Swipe In User",
+            "action": "SWIPEIN"
+        },
+        {
+            "step_number": "2",
+            "action_description": "Plug In Device",
+            "action": "PLUGIN WITHOUT LOGIN"
+        },
+        {
+            "step_number": "3",
+            "action_description": "Unplug Device",
+            "action": "UNPLUG WITHOUT LOGIN"
+        },
+        {
+            "step_number": "4",
+            "action_description": "Swipe Out User",
+            "action": "SWIPEOUT"
+        }
+    ],
+    "UseCase3": [
+        {
+            "step_number": "1",
+            "action_description": "Swipe In User",
+            "action": "SWIPEIN"
+        },
+        {
+            "step_number": "2",
+            "action_description": "Log In User",
+            "action": "LOGIN"
+        },
+        {
+            "step_number": "3",
+            "action_description": "Login User To CIRCUS",
+            "action": "LOGIN CIRCUS"
+        },
+        {
+            "step_number": "4",
+            "action_description": "User Performs Print From CIRCUS",
+            "action": "PERFORM CIRCUS PRINT"
+        },
+        {
+            "step_number": "5",
+            "action_description": "User Performs Search In CIRCUS",
+            "action": "PERFORM CIRCUS SEARCH"
+        },
+        {
+            "step_number": "6",
+            "action_description": "Logout User From CIRCUS",
+            "action": "LOGOUT CIRCUS"
+        },
+        {
+            "step_number": "7",
+            "action_description": "Log Out User",
+            "action": "LOGOUT"
+        },
+        {
+            "step_number": "8",
+            "action_description": "Swipe Out User",
+            "action": "SWIPEOUT"
+        }
+    ],
+    "UseCase4": [
+        {
+            "step_number": "1",
+            "action_description": "Swipe In User",
+            "action": "SWIPEIN"
+        },
+        {
+            "step_number": "2",
+            "action_description": "Log In User",
+            "action": "LOGIN"
+        },
+        {
+            "step_number": "3",
+            "action_description": "User Prints From Directly Connected Printer",
+            "action": "PRINT DIRECT"
+        },
+        {
+            "step_number": "4",
+            "action_description": "User Pushes Print Job To Print Queue",
+            "action": "PRINT TO QUEUE"
+        },
+        {
+            "step_number": "5",
+            "action_description": "User Pulls Print Job From Print Queue",
+            "action": "PULL PRINTS FROM QUEUE"
+        },
+        {
+            "step_number": "6",
+            "action_description": "Log Out User",
+            "action": "LOGOUT"
+        },
+        {
+            "step_number": "7",
+            "action_description": "Swipe Out User",
+            "action": "SWIPEOUT"
+        }
+    ]
+}
