@@ -27,7 +27,7 @@ AUTHOR  : John Smith
 """
 CODE_VERSION = "1.4"
 VERSION_DATE = "10/02/2018"
-print "\n\nVERSION = " + CODE_VERSION + "\n\nVERSION_DATE = " + VERSION_DATE + "\n\n"
+print ("\n\nVERSION = " + CODE_VERSION + "\n\nVERSION_DATE = " + VERSION_DATE + "\n\n")
 
 
 """
@@ -1508,7 +1508,7 @@ class Terminal:
         logger.debug("Terminal Type : " + str(self.__terminal_type))
         logger.debug("Office        : " + str(self.__office))
 
-        if terminal_type == "THICK":
+        if self.__terminal_type == "THICK":
             logger.debug("IP Address    : " + str(self.__ip_address))
             logger.debug("FQDN          : " + str(self.__fqdn))
 
@@ -2970,7 +2970,7 @@ def return_citrix_session(citrix_server):
 
     except Exception as return_citrix_session_ex:
         logger.error("Exception raised in return_citrix_session function!")
-        logger.info(str(return_citric_session_ex))
+        logger.info(str(return_citrix_session_ex))
 
     return None
 
